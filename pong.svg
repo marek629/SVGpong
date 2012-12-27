@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="pong.css" ?>   
+<svg id="svgpong" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" onload="init();">
+    <script type="text/javascript" xlink:href="pong.js" />
+
+    <rect id="gameframe"  x="0"  y="0"  height="800" width="500" />
+    <rect id="playground" x="20" y="80" height="700" width="460" />
+
+    <text id="score" x="200" y="60">0:0</text>
+
+    <rect class="paddle" id="player1" x="250" y="120" height="20" width="75" />
+    <rect class="paddle" id="player2" x="210" y="720" height="20" width="75" />
+
+    <circle id="ball" cx="250" cy="450" r="10" />
+</svg>
