@@ -1,3 +1,8 @@
+/* This file is part of SVG pong game.
+ * https://github.com/marek629/SVGpong
+ * Copyright 2012 Marek Jędryka
+ */
+
 var playground, topPlayer, bottomPlayer, ball, r, scoreText;
 var leftBorder, rightBorder, topBorder, bottomBorder;
 var centerX, centerY;

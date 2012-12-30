@@ -1,29 +1,32 @@
+/* This file is part of SVG pong game.
+ * https://github.com/marek629/SVGpong
+ * Copyright 2012 Marek Jędryka
+ */
+
 circle {
-	fill:		#fee934;
-	stroke-width:	0px;
+    stroke-width:   0px;
 }
 
 rect {
-	stroke-width:	0px;
+    stroke-width:   0px;
 }
 
 rect.paddle {
-	fill:		#b7ced0;
+    fill:           #b7ced0;
 }
 
 rect#gameframe {
-	fill:		#969cb0;
+    fill:           #969cb0;
 }
 
 rect#playground {
-	fill:		#23343a;
-	stroke:		#40aad3;
-	stroke-width:	5px;
+    fill:           #23343a;
+    stroke:         #40aad3;
+    stroke-width:   5px;
 }
 
 text#score {
-	fill:		#9524af;
-	font-family:	monospace;
-	font-size:	42pt;
-	stroke: 	none;
+    font-family:    monospace;
+    font-size:      42pt;
+    stroke:         none;
 }
