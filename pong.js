@@ -41,9 +41,8 @@ function init() {
     score = [0,0];
     dx = 1;
     dy = 1;
-    var svg = document.getElementById("svgpong");
-    svg.onkeydown = function(e) { getKey(e); };
-    svg.onkeyup   = function() { player2dx = 0; };
+    window.onkeydown = function(e) { getKey(e); };
+    window.onkeyup   = function() { player2dx = 0; };
     halfPaddleWidth = parseInt(topPlayer.getAttribute("width")) / 2;
     startSet();
 }
